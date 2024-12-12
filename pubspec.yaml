@@ -1,0 +1,79 @@
+name: weathernook
+description: Weather application.
+publish_to: "none"
+version: 0.2.0+5
+
+environment:
+  sdk: ">=3.5.4 <4.0.0"
+  flutter: ">=3.24.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Firebase
+  firebase_core: ^3.8.0
+  firebase_analytics: ^11.3.5
+  firebase_remote_config: ^5.1.5
+
+  auto_route: ^9.2.2
+  custom_refresh_indicator: ^4.0.1
+  dio: ^5.7.0
+  envied: ^1.0.0
+  equatable: ^2.0.7
+  flutter_bloc: ^8.1.6
+  flutter_form_builder: ^9.5.0
+  flutter_spinkit: ^5.2.1
+  font_awesome_flutter: ^10.8.0
+  form_builder_validators: ^11.0.0
+  fpdart: ^1.1.1
+  get_it: ^8.0.2
+  google_fonts: ^6.2.1
+  hive_ce: ^2.8.0+2
+  hive_ce_flutter: ^2.1.0
+  injectable: ^2.5.0
+  intl: ^0.19.0
+  json_annotation: ^4.9.0
+  logger: ^2.5.0
+  recase: ^4.1.0
+  retrofit: ^4.4.1
+  sentry_flutter: ^8.10.1
+  slang: ^4.2.1
+  slang_flutter: ^4.2.0
+  package_info_plus: ^8.1.1
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  auto_route_generator: ^9.0.0
+  build_runner: ^2.4.13
+  envied_generator: ^1.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.4.3
+  hive_ce_generator: ^1.8.1
+  injectable_generator: ^2.6.2
+  json_serializable: ^6.9.0
+  retrofit_generator: ^9.1.5
+  test: ^1.25.7
+
+flutter_native_splash:
+  color: "#121212"
+  color_dark: "#121212"
+  image: "assets/icons/splash.png"
+  android_12:
+    image: "assets/icons/splash.png"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path_android: "assets/icons/android_launch_icon.png"
+  ios: true
+  image_path_ios: "assets/icons/ios_launch_icon.png"
+  remove_alpha_ios: true
+  adaptive_icon_foreground: "assets/icons/adaptive_launch.png"
+  adaptive_icon_background: "assets/icons/launch_background.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true

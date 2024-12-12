@@ -1,0 +1,67 @@
+{
+  "appName": "Weathernook",
+  "exceptions": {
+    "noInternetConnectionException": "No Internet Connection",
+    "unknownApiException": "Oops something went wrong"
+  },
+  "error": {
+    "oops": "Ooops, something went wrong!"
+  },
+  "firstLaunchDialog": {
+    "title": "Please read it carefuly",
+    "content": "1. If you experience an API Key error, you can set up your own on the Settings page. There will be a short description of how to do it\n\n2. If you have any questions or want to report a bug, please visit theengineer.dev and send a message from the Contact page\n\n3. You'll find a roadmap on my GitHub page, which is linked on theengineer.dev\n\nHave fun!"
+  },
+  "homePage": {
+    "setLocationMenuItem": "Set location",
+    "settingsMenuItem": "Settings",
+    "weatherContent": {
+      "serverDataUpdatedOn": "Server data\nupdated on:",
+      "currentTemp": "Current temp:",
+      "temperature": "${c} \u2103, ${f} \u2109",
+      "feelsLike": "Feels like:",
+      "sky": "Sky:",
+      "httpUrlPrefix": "https:${url}",
+      "windDirection": "Wind direction:",
+      "windSpeed": "Wind speed:",
+      "speed": "${kph} kph, ${mph} mph",
+      "humidity": "Humidity: ",
+      "percentage": "${data} %",
+      "airQuality": "Air quality",
+      "mgM3": "${data} μg/m3",
+      "carbonMonoxide": "co (Carbon Monoxide): ",
+      "ozone": "o3 (Ozone): ",
+      "nitrogenDioxide": "no2 (Nitrogen dioxide): ",
+      "sulphurDioxide": "so2 (Sulphur dioxide): ",
+      "pm25": "PM2.5: ",
+      "pm10": "PM10: ",
+      "quality": "Quality: "
+    }
+  },
+  "searchPage": {
+    "title": "Choose a location",
+    "nothingWasFound": "Nothing was found.",
+    "pleaseEnterOrMoreCharacters": "Please enter ${amount: int} or more characters."
+  },
+  "settingsPage": {
+    "title": "Settings",
+    "apiKeyText": "If, for any reason, the API does not work, you can use your own API key. Go to https://www.weatherapi.com/, create an account, and get your own key. Then, enter it in the field below and press 'Try it out.'",
+    "tryItButton": "Try it out!",
+    "successApiKeyChange": "Api Key was successfuly changed!"
+  },
+  "airQualityModel": {
+    "good": "Good",
+    "moderate": "Moderate",
+    "unhealthyForSensitiveGroup": "Unhealthy for sensitive group",
+    "unhealthy": "Unhealthy",
+    "veryUnhealthy": "Very unhealthy",
+    "hazardous": "Hazardous",
+    "unknown": "Unknown"
+  },
+  "appUpdate": {
+    "titleRequired": "Update Required",
+    "titleSuggested": "Update Available",
+    "textRequired": "To continue using app, please go to the store and download the newest version.",
+    "textSuggested": "A new version of the app is ready for you! Update to the latest app to access the newest features and improvements.",
+    "updateNowButton": "Update Now"
+  }
+}
